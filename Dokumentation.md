@@ -15,3 +15,28 @@ sudo apt update
 sudo apt install nodejs npm -y
 ```
 
+### Fortsetzung Ollama
+
+```
+ollama
+```
+`OpenClaw` auswählen und mit `Yes` bestätigen
+
+Berechtigungsfehler tritt auf
+
+Lösung durch erstellen eines eigenen Ordners für das Projekt
+```
+mkdir -p ~/ollama-stack && cd ~/ollama-stack
+nano docker-compose.yml
+```
+Nun haben wir einen eigenen Ordner mit der Docker Konfigurationsdatei.
+Jetzt kann der Container gestartet werden.
+```
+docker compose up -d
+```
+Zur Überprüfung
+```
+docker compose ps
+```
+
+
