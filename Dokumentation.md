@@ -38,5 +38,13 @@ Zur Überprüfung
 ```
 docker compose ps
 ```
-
+Nun kann ein LLM installiert werden
+```
+docker exec -it ollama-stack-ollama-1 ollama pull llama3.2
+```
+Mit 
+```
+http://localhost:3000
+```
+Kann jetzt die Open WebGUI geöffnet werden
 
