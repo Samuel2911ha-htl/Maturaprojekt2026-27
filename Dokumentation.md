@@ -48,3 +48,17 @@ http://localhost:3000
 ```
 Kann jetzt die Open WebGUI geöffnet werden
 
+
+# Reachy Mini
+
+## Installation der App
+
+Die App kann für den Desktop runtergealden werden
+```
+https://pollen-robotics.com/reachy-mini/getting-started/
+```
+
+Oder über die Shell mit phyton runtergeladen werden, hierzu muss nur diese Anleitung befolgt werden
+```
+https://huggingface.co/docs/reachy_mini/SDK/installation
+```
